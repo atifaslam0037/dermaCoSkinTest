@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Darmaco</title>
+    <link rel="stylesheet" href="./accests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./accests/css/jquery-steps.css">
+    <link rel="stylesheet" href="./accests/css/style.css">
+</head>
+
+<body>
+    <header class="header_fixed" id="header">
+        <nav class="navbar navbar-light ">
+            <div class="container-fluid">
+                <a href="index.html" class="logo">
+                    <img src="./accests/images/TheDermaCoLogo2-min.webp" alt="The Derma Co" class="img_fluied">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="step-app" id="demo">
+        <ul class="step-steps">
+            <li data-step-target="step1">Step 1</li>
+            <li data-step-target="step2">Step 2</li>
+            <li data-step-target="step3">Step 3</li>
+            <li data-step-target="step4">Step 4</li>
+        </ul>
+        <div class="step-content">
+            <div class="step-tab-panel" data-step="step1">
+                <div class="wrapper bg_gray">
+                    <section id="Just_3_Steps">
+                        <div class="container-fluid">
+                            <div class="row align-item-center justify-content-center pb-5 px-5">
+                                <!-- <div class="col-md-1"></div> -->
+                                <div class="col-md-7  align-self-center">
+                                    <h1 class="heading_3">
+                                        Get Healthy Skin In Just 3 Steps!
+                                    </h1>
+                                    <div class="steps_box">
+                                        <div class="icon">
+                                            <img src="./accests/images/icons/Face-Iconc.svg" alt="Skin">
+                                        </div>
+                                        <div class="icon_detail">
+                                            Tell us your specific Skin Concerns
+                                        </div>
+                                    </div>
+                                    <div class="steps_box">
+                                        <div class="icon">
+                                            <img src="./accests/images/icons/Frame 2s.svg" alt="Skin">
+                                        </div>
+                                        <div class="icon_detail">
+                                            Take quick snapshot & our AI tool will help you identify areas of
+                                            improvement.
+                                        </div>
+                                    </div>
+                                    <div class="steps_box">
+                                        <div class="icon">
+                                            <img src="./accests/images/icons/Frame 3f.svg" alt="Skin">
+                                        </div>
+                                        <div class="icon_detail">
+                                            Get Personalized Regimen in 2 minutes
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="right_foam">
+                                        <h1 class="heading_3 mb-3">
+                                            Get Healthy Skin In Just 3 Steps!
+                                        </h1>
+                                        <p class="description">
+                                            Select your Skin Texture
+                                        </p>
+                                        <div class="col-lg-7 col-md-9">
+                                            <div class="d-flex flex-wrap gap-3" id="skinTexture">
+                                                <div class="col-sm-4">
+                                                    <div class="notselected">
+                                                        <input type="radio" name="texture" id="Oily"
+                                                            class="input_radio">
+                                                        <label for="Oily" class="w-100">
+                                                            <div>
+                                                                <img src="./accests/images/Oily.png" alt="Skin Texture">
+                                                                <div class="text-center" style="margin-top: 4px;">Oily
+                                                                </div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="notselected">
+                                                        <input type="radio" name="texture" id="Dry" class="input_radio">
+                                                        <label for="Dry" class="w-100">
+                                                            <div>
+                                                                <img src="./accests/images/Dry.webp" alt="Skin Texture">
+                                                                <div class="text-center" style="margin-top: 4px;">Dry
+                                                                </div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="notselected">
+                                                        <input type="radio" name="texture" id="Combination"
+                                                            class="input_radio">
+                                                        <label for="Combination" class="w-100">
+                                                            <div>
+                                                                <img src="./accests/images/Combination.webp"
+                                                                    alt="Skin Texture">
+                                                                <div class="text-center" style="margin-top: 4px;">
+                                                                    Combination</div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="description mt-4">
+                                                Select your Skin Type
+                                            </p>
+                                            <div class="d-flex flex-wrap gap-3" id="skinType">
+                                                <div class="col-sm-4">
+                                                    <div class="notselected">
+                                                        <input type="radio" name="skintype" id="Normal"
+                                                            class="input_radio">
+                                                        <label for="Normal" class="w-100">
+                                                            <div>
+                                                                <img src="./accests/images/Normal.webp" alt="Skin type">
+                                                                <div class="text-center" style="margin-top: 4px;">Normal
+                                                                </div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="notselected">
+                                                        <input type="radio" name="skintype" id="Sensitive"
+                                                            class="input_radio">
+                                                        <label for="Sensitive" class="w-100">
+                                                            <div>
+                                                                <img src="./accests/images/Sensitive.webp"
+                                                                    alt="Skin type">
+                                                                <div class="text-center" style="margin-top: 4px;">
+                                                                    Sensitive</div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" data-step-action="next" id="strt-assessment"
+                                            class="btn_1 mt-4" disabled>
+                                            Start Assessment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="step-tab-panel" data-step="step2">
+                <div class="wrapper ">
+                    <div class="top-bar bg_gray">
+                        <div class="top-bar-active" style="width: 16%;"></div>
+                    </div>
+                    <section id="concern" class="pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <dvi class="col-md-10">
+                                    <div class="d-flex justify-content-center mb-5">
+                                        <div class="back_icon ps-3 ">
+                                            <img src="./accests/images/icons/arrow_back_black.svg" alt="Back Tab"
+                                                data-step-action="prev">
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <h1 class="heading_1">What is your concern?</h1>
+                                            <h4 class="min_heading">Select Only One</h4>
+                                        </div>
+                                    </div>
+                                    <div class=" row d-flex align-item-center justify-content-center gy-4 flex-wrap">
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="OpenPores"
+                                                class="position-absolute invisible">
+                                            <label for="OpenPores">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Open Pores
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="Pigmentation"
+                                                class="position-absolute invisible">
+                                            <label for="Pigmentation">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Pigmentation
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="Acne"
+                                                class="position-absolute invisible">
+                                            <label for="Acne">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Pigmentation
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="Aging"
+                                                class="position-absolute invisible">
+                                            <label for="Aging">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Aging
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="DarkCircles"
+                                                class="position-absolute invisible">
+                                            <label for="DarkCircles">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Dark Circles
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <a href="javascript::" data-step-action="next"
+                                            class="text-decoration-none px-3 col-md-6">
+                                            <input type="radio" name="concern" id="AcneMarks"
+                                                class="position-absolute invisible">
+                                            <label for="AcneMarks">
+                                                <div class="concern_item">
+                                                    <div class="concern_item_img">
+                                                        <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                            alt="your concern" class="concern_img" width="78px"
+                                                            height="78px">
+                                                    </div>
+                                                    <div class="concern_item_details">
+                                                        <h4 class="item_heading">
+                                                            Acne Marks & Scars
+                                                        </h4>
+                                                        <p class="item_description">
+                                                            A result of excess oil production, reduced elasticity, or
+                                                            thick hair follicles
+                                                            <span class="k_m" onclick="stopPropagation(event)"
+                                                                type="button" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal">Know More...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </a>
+                                        <div class="concern_item col-md-6">
+                                            <div class="concern_item_img">
+                                                <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                    alt="your concern" class="concern_img" width="78px" height="78px">
+                                            </div>
+                                            <div class="concern_item_details">
+                                                <h4 class="item_heading">
+                                                    Acne Marks & Scars
+                                                </h4>
+                                                <p class="item_description">
+                                                    A result of excess oil production, reduced elasticity, or thick hair
+                                                    follicles
+                                                    <span class="k_m" type="button" onclick="openModal(event)">Know
+                                                        More...</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </dvi>
+                            </div>
+                        </div>
+
+
+
+                        <!-- modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered concern_modal">
+                                <img src="./accests/images/icons/whiteClose.svg" alt="Close Modal"
+                                    class="img_fluied mx-auto my-4" width="25px" height="25px" type="button"
+                                    data-bs-dismiss="modal" aria-label="Close">
+                                <div class="content_concern">
+                                    <div class="d-flex px-3 gap-2">
+                                        <div class="w-50">
+                                            <img src="./accests/images/Concern-Images(Open-Pores).jpg"
+                                                alt="Concern-Images" class="img_fluied rounded-3">
+                                        </div>
+                                        <div class="w-50">
+                                            <img src="./accests/images/Concern-Images(Pigmentation).jpg"
+                                                alt="Concern-Images" class="img_fluied rounded-3">
+                                        </div>
+                                    </div>
+                                    <div class="px-4 mt-3">
+                                        <p class="description text-center">
+                                            Open pores are small pit-like pores that generally appear in people having
+                                            combination
+                                            or oily skin. When the pores become larger in size, they start accumulating
+                                            dirt and
+                                            excess oil, thus becoming clogged. A clogged pore further leads to skin
+                                            imperfections
+                                            like pimples and blackheads.
+                                        </p>
+                                    </div>
+                                    <button type="button" data-step-action="next" class="modal_btn">Select Open
+                                        Pores</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal -->
+                    </section>
+                </div>
+            </div>
+            <div class="step-tab-panel" data-step="step3">
+                <div class="wrapper ">
+                    <div class="top-bar bg_gray">
+                        <div class="top-bar-active" style="width: 85%;"></div>
+                    </div>
+                    <section id="selfie " class="pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <dvi class="col-md-10">
+                                    <div class="d-flex justify-content-center mb-5">
+                                        <div class="back_icon ps-3 ">
+                                            <img src="./accests/images/icons/arrow_back_black.svg" alt="Back Tab"
+                                                data-step-action="prev">
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <h1 class="heading_1">Take selfie to get more accurate results</h1>
+                                        </div>
+                                    </div>
+                                    <div id="take_selfi">
+                                        <div class="skip_selfi">
+                                            <button type="button" data-step-action="next"
+                                                class="btn_styleless skip_selfi p-0">
+                                                <img src="./accests/images/icons/skipSelfi.svg" alt="skip selfi"
+                                                    style="margin-right: 5px; margin-top: -3px; width: 30px;"
+                                                    width="30px" height="30px">
+                                                Skip Selfie
+                                            </button>
+                                        </div>
+
+                                        <div class="selfi_inst">
+                                            <p class="instructions">Instructions</p>
+                                            <div style="margin-top:-24px;overflow:hidden"><img
+                                                    src="https://images.thedermaco.com/animation_300_l6c1wnmi.gif"
+                                                    height="250" width="250"></div>
+                                        </div>
+                                        <div class="selfi_instructions">
+                                            <div class="inst_list">
+                                                <img src="./accests/images/icons/glasses.svg" alt="Instructions">
+                                                <p>Remove eyeglasses or Specs’s</p>
+                                            </div>
+                                            <div class="inst_list">
+                                                <img src="./accests/images/icons/makeup.svg" alt="Instructions">
+                                                <p>Remove makeup from face</p>
+                                            </div>
+                                            <div class="inst_list">
+                                                <img src="./accests/images/icons/lite.svg" alt="Instructions">
+                                                <p>Keep in good light</p>
+                                            </div>
+                                        </div>
+                                        <div class="mt-5 mb-4">
+                                            <button type="button" class="btn_1 btn_active py-3 px-3"
+                                                style="width: max-content;height: auto;">
+                                                <img src="./accests/images/icons/Camera.svg" alt="Take Selfi"
+                                                    style="width: 40px;height: 40px;">
+                                                Take Selfie
+                                            </button>
+                                        </div>
+                                    </div>
+                                </dvi>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="step-tab-panel" data-step="step4">
+                <div class="wrapper">
+                    <div class="top-bar bg_gray">
+                        <div class="top-bar-active" style="width: 95%;"></div>
+                    </div>
+                    <section id="Complete">
+                        <div class="container">
+                            <div class="row">
+                                <dvi class="col-md-10">
+                                    <div class="d-flex justify-content-center mb-5">
+                                        <div class="back_icon ps-3">
+                                            <img src="./accests/images/icons/arrow_back_black.svg" alt="Back Tab"
+                                                data-step-action="prev" style="height: 2;">
+                                        </div>
+                                        <div class="text-center col-md-6 offset-md-2">
+                                            <h1 class="heading_1 text-center mb-3">Almost Done! Complete below
+                                                details and get upto <strong class="fw-bold"
+                                                    style="color: rgb(76, 151, 137);">35% off</strong>
+                                            </h1>
+                                            <p class="description text-center mb-2">
+                                                Please enter your details to view the result
+                                            </p>
+                                            <div class="float_lable mb-3">
+                                                <input type="number" id="phonenumber" class="inputfield"
+                                                    placeholder="Enter phone number">
+                                                <div id="phone-error" class="error mt-2">Enter phone number</div>
+                                                <label for="phonenumber">Enter phone number</label>
+                                            </div>
+                                            <div class="float_lable mb-3">
+                                                <input type="email" id="emailadd" class="inputfield"
+                                                    placeholder="Enter Email Address">
+                                                <div id="email-error" class="error mt-2">Enter email address</div>
+                                                <label for="emailadd">Enter email address</label>
+                                            </div>
+                                            <div class="py-4">
+                                                <button type="button" id="view-report-btn" class="btn_1" disabled>View
+                                                    Report</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </dvi>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="step-footer">
+            <button data-step-action="prev" class="step-btn">Previous</button>
+            <button data-step-action="next" class="step-btn">Next</button>
+            <button data-step-action="finish" class="step-btn">Finish</button>
+        </div> -->
+    </div>
+
+    <script src="./accests/js/jquery.js"></script>
+    <script src="./accests/js/bootstrap.bundle.min.js"></script>
+    <script src="./accests/js/jquery-steps.js"></script>
+    <script src="./accests/js/main.js"></script>
+
+    <script>
+        $('#demo').steps({
+            onFinish: function () {
+                // alert('Wizard Completed');
+            }
+        });
+    </script>
+</body>
+
+</html>

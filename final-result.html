@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Derma Co</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./accests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./accests/css/style.css">
+    <link rel="stylesheet" href="./accests/css/slick.css">
+</head>
+
+<body>
+    <!-- cart sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header justify-content-start">
+            <span class="me-3 pe-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#279989">
+                    <path d="M0 0h24v24H0V0z" fill="none"></path>
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                </svg>
+            </span>
+            <h5 class="offcanvas-title">My Cart</h5>
+        </div>
+        <div class="offcanvas-body p-0">
+            <div class="bg_white py-2 mb-3">
+                <div class="sc-jKmXuR fzqYyA">
+                    <img src="./accests/images/offer_2.webp" width="50px" height="50px" loading="lazy"
+                        style="margin: auto 6px; width: 50px;">
+                    <div class="coupon-text">
+                        <div class="coupon-header">GET 2 FREEBIE + ₹100 Cashback</div>
+                        <div class="coupon-description">Shop for ₹599 &amp; Get 2 Bestsellers FREE + Extra ₹100
+                            Cashback | Use Coupon - FREE2B | Offer Ending Tomorrow | NA on Kits &amp; Lightning Sale
+                            Products</div>
+                    </div>
+                    <div class="coupon-cta">
+                        <div class="coupon-tap">Tap Here To Apply</div>
+                        <div class="coupon-code">FREE2B</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_white py-2 mb-3">
+                <div class="coupon-wrapper">
+                    <div class="applied-offer">
+                        <div>
+                            <svg id="tabler-icon-discount-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path id="Path_31915" data-name="Path 31915" d="M0,0H24V24H0Z" fill="none"></path>
+                                <line id="Line_342" data-name="Line 342" y1="6" x2="6" transform="translate(9 9)"
+                                    fill="none" stroke="#279989" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"></line>
+                                <circle id="Ellipse_795" data-name="Ellipse 795" cx="0.5" cy="0.5" r="0.5"
+                                    transform="translate(9 9)" stroke="#279989" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5"></circle>
+                                <circle id="Ellipse_796" data-name="Ellipse 796" cx="0.5" cy="0.5" r="0.5"
+                                    transform="translate(14 14)" stroke="#279989" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5"></circle>
+                                <path id="Path_31916" data-name="Path 31916"
+                                    d="M5,7.2A2.2,2.2,0,0,1,7.2,5h1a2.2,2.2,0,0,0,1.55-.64l.7-.7a2.2,2.2,0,0,1,3.12,0l.7.7A2.2,2.2,0,0,0,15.82,5h1a2.2,2.2,0,0,1,2.2,2.2v1a2.2,2.2,0,0,0,.64,1.55l.7.7a2.2,2.2,0,0,1,0,3.12l-.7.7a2.2,2.2,0,0,0-.64,1.55v1a2.2,2.2,0,0,1-2.2,2.2h-1a2.2,2.2,0,0,0-1.55.64l-.7.7a2.2,2.2,0,0,1-3.12,0l-.7-.7a2.2,2.2,0,0,0-1.55-.64h-1A2.2,2.2,0,0,1,5,16.82v-1a2.2,2.2,0,0,0-.64-1.55l-.7-.7a2.2,2.2,0,0,1,0-3.12l.7-.7A2.2,2.2,0,0,0,5,8.2v-1"
+                                    fill="none" stroke="#279989" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <div style="margin-left: 7px; margin-bottom: 2px;">Applied Offer</div>
+                    </div>
+                    <div class="change-coupon">Change</div>
+                </div>
+                <div class="coupon-name">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
+                        <g id="Group_25190" data-name="Group 25190" transform="translate(-15 -702)">
+                            <circle id="Ellipse_807" data-name="Ellipse 807" cx="16" cy="16" r="16"
+                                transform="translate(15 702)" fill="#279989"></circle>
+                            <g id="tabler-icon-check" transform="translate(23.497 709.84)">
+                                <path id="Path_116090" data-name="Path 116090" d="M0,0H14.333V16.32H0Z"
+                                    transform="translate(0.336)" fill="none"></path>
+                                <path id="Path_116091" data-name="Path 116091" d="M5,12.072l5,5.072L20,7"
+                                    transform="translate(-5 -3.912)" fill="none" stroke="#fff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1.5"></path>
+                            </g>
+                        </g>
+                    </svg>
+                    <span
+                        style="margin-left: 8px; padding-top: 5px; letter-spacing: 0.28px; font-weight: 300;">Coupon<span
+                            style="font-weight: 800; font-size: 17px;">REGIME20</span> Applied</span>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <div>
+                <div class="price">₹371.55</div>
+                <div class="text">View Details</div>
+            </div>
+            <button type="button" class="checkout-button">Continue</button>
+        </div>
+    </div>
+    <!-- cart sidebar -->
+    <header class="header_fixed" id="header" style="position: unset;">
+        <nav class="navbar navbar-light navbar-expand-sm ">
+            <div class="container-fluid">
+                <a href="index.html" class="logo">
+                    <img src="./accests/images/TheDermaCoLogo2-min.webp" alt="The Derma Co" class="img_fluied">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                aria-controls="offcanvasExample">
+                                <div class="cart-icon-container" style="width: fit-content;">
+                                    <i class="cart-icon"><svg id="shopping_cart_black_24dp"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path id="Path_17357" data-name="Path 17357" d="M0,0H24V24H0Z" fill="none">
+                                            </path>
+                                            <path id="Path_17358" data-name="Path 17358"
+                                                d="M15.55,13a1.991,1.991,0,0,0,1.75-1.03l3.58-6.49A1,1,0,0,0,20.01,4H5.21L4.27,2H1V4H3l3.6,7.59L5.25,14.03A2,2,0,0,0,7,17H19V15H7l1.1-2ZM6.16,6H18.31l-2.76,5H8.53ZM7,18a2,2,0,1,0,2,2A2,2,0,0,0,7,18Zm10,0a2,2,0,1,0,2,2A2,2,0,0,0,17,18Z"
+                                                fill="#279989"></path>
+                                        </svg>
+                                    </i>
+                                    <span class="item-count">1</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="container-fluid py-4">
+            <div class="skin_analysis">
+
+                <div class="w-100 px-lg-5 px-3 ">
+                    <h1 class="heading_2 pb-3">
+                        Hey , Here's Your Skin Analysis
+                    </h1>
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="skin_ana_text">
+                                <strong class="fw-bold">Concern</strong>
+                                Pigmentation
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="skin_ana_text">
+                                <strong class="fw-bold">Skin Texture</strong>
+                                Oily
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="skin_ana_text">
+                                <strong class="fw-bold">Skin Type</strong>
+                                Sensitive
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="skin_ana_text">
+                                <strong class="fw-bold">Types of Pigmentation</strong>
+                                Melasma/Blemishes
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-self-start">
+                    <button type="button" class="btn_styleless d-flex justify-content-center">
+                        <img src="./accests/images/icons/retake.svg" alt="Retake">
+                        Retake
+                    </button>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4 px-3">
+                <div class="col-sm-9 col-md-9 col-lg-7">
+                    <div class="per_skin" id="proSkin">
+                        <h2 class="heading_2 text-center">
+                            Your Personalised Skincare Regimen
+                        </h2>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <div class="product">
+                                    <div class="pro_selected active_pro">
+                                        <label class="check_box_pro"> SELECT
+                                            <input type="checkbox" class="input_check" checked>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="p-2 bg_white">
+                                        <div class="d-flex justify-content-between gap-2">
+                                            <div class="col-5">
+                                                <img src="./accests/images/kojic_acid.jpg" alt="Bets product"
+                                                    height="130" class="rounded-3">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="sc-gipzik cmUmuY">
+                                                    <div class="sc-bRBYWo cHYsIe">
+                                                        <img src="./accests/images/icons/day.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj">Day</div>
+                                                        <div class="sc-kkGfuU eCPBTH"></div>
+                                                        <img src="./accests/images/icons/nicht.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj" style="margin-left: -3px;">
+                                                            Night
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <h5 class="heading_simple my-3 ">
+                                                    Oil-Free Daily Face Wash With Hyaluronic Acid, Glycolic Acid &
+                                                    Multivitamins for Clear & Hydrated Skin - 100ml
+                                                </h5>
+                                                <p class="description mb-0">
+                                                    ₹ 499.00
+                                                </p>
+                                                <div class="sc-ckVGcZ gTzsvG">
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="star"
+                                                                d="M8.147,11.135l3.8,2.232L10.937,9.161l3.356-2.83-4.42-.365L8.147,2,6.42,5.966,2,6.331l3.356,2.83L4.348,13.367Z"
+                                                                transform="translate(-2 -2)" fill="#ffc300"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-jKJlTe lfmUyh">4.9</div>
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="verified_" data-name="verified "
+                                                                d="M15.865,8.534,14.216,6.665l.23-2.472-2.439-.549L10.73,1.5l-2.3.978L6.135,1.5,4.858,3.637,2.419,4.18l.23,2.479L1,8.534,2.649,10.4l-.23,2.479,2.439.549,1.277,2.137,2.3-.985,2.3.978,1.277-2.137,2.439-.549-.23-2.472ZM7.142,11.7,4.574,9.144l1-.991L7.142,9.713l3.953-3.932,1,.991Z"
+                                                                transform="translate(-1 -1.5)" fill="#0082ff">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-dxgOiQ FNQpo">321 Ratings</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <p class="description co_black mb-2">
+                                            Benefits
+                                        </p>
+                                        <p style="font-size: 14px;color: rgb(29, 29, 29);">
+                                            Your solution for reducing excess oil and gently exfoliates
+                                        </p>
+                                        <p class="description co_black mb-2">
+                                            Active Ingredients
+                                        </p>
+                                        <div class="d-flex justify-content-start align-item-center gap-3 flex-wrap">
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product">
+                                    <div class="pro_selected active_pro">
+                                        <label class="check_box_pro"> SELECT
+                                            <input type="checkbox" class="input_check" checked>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="p-2 bg_white">
+                                        <div class="d-flex justify-content-between gap-2">
+                                            <div class="col-5">
+                                                <img src="./accests/images/kojic_acid.jpg" alt="Bets product"
+                                                    height="130" class="rounded-3">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="sc-gipzik cmUmuY">
+                                                    <div class="sc-bRBYWo cHYsIe">
+                                                        <img src="./accests/images/icons/day.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj">Day</div>
+                                                        <div class="sc-kkGfuU eCPBTH"></div>
+                                                        <img src="./accests/images/icons/nicht.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj" style="margin-left: -3px;">
+                                                            Night
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <h5 class="heading_simple my-3 ">
+                                                    Oil-Free Daily Face Wash With Hyaluronic Acid, Glycolic Acid &
+                                                    Multivitamins for Clear & Hydrated Skin - 100ml
+                                                </h5>
+                                                <p class="description mb-0">
+                                                    ₹ 499.00
+                                                </p>
+                                                <div class="sc-ckVGcZ gTzsvG">
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="star"
+                                                                d="M8.147,11.135l3.8,2.232L10.937,9.161l3.356-2.83-4.42-.365L8.147,2,6.42,5.966,2,6.331l3.356,2.83L4.348,13.367Z"
+                                                                transform="translate(-2 -2)" fill="#ffc300"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-jKJlTe lfmUyh">4.9</div>
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="verified_" data-name="verified "
+                                                                d="M15.865,8.534,14.216,6.665l.23-2.472-2.439-.549L10.73,1.5l-2.3.978L6.135,1.5,4.858,3.637,2.419,4.18l.23,2.479L1,8.534,2.649,10.4l-.23,2.479,2.439.549,1.277,2.137,2.3-.985,2.3.978,1.277-2.137,2.439-.549-.23-2.472ZM7.142,11.7,4.574,9.144l1-.991L7.142,9.713l3.953-3.932,1,.991Z"
+                                                                transform="translate(-1 -1.5)" fill="#0082ff">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-dxgOiQ FNQpo">321 Ratings</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <p class="description co_black mb-2">
+                                            Benefits
+                                        </p>
+                                        <p style="font-size: 14px;color: rgb(29, 29, 29);">
+                                            Your solution for reducing excess oil and gently exfoliates
+                                        </p>
+                                        <p class="description co_black mb-2">
+                                            Active Ingredients
+                                        </p>
+                                        <div class="d-flex justify-content-start align-item-center gap-3 flex-wrap">
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="heading_2 text-center py-3">
+                            Your Personalised Skincare Regimen
+                        </h2>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="product">
+                                    <div class="pro_selected">
+                                        <label class="check_box_pro"> SELECT
+                                            <input type="checkbox" class="input_check">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="p-2 bg_white">
+                                        <div class="d-flex justify-content-between gap-2">
+                                            <div class="col-5">
+                                                <img src="./accests/images/kojic_acid.jpg" alt="Bets product"
+                                                    height="130" class="rounded-3">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="sc-gipzik cmUmuY">
+                                                    <div class="sc-bRBYWo cHYsIe">
+                                                        <img src="./accests/images/icons/day.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj">Day</div>
+                                                        <div class="sc-kkGfuU eCPBTH"></div>
+                                                        <img src="./accests/images/icons/nicht.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj" style="margin-left: -3px;">
+                                                            Night
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <h5 class="heading_simple my-3 ">
+                                                    Oil-Free Daily Face Wash With Hyaluronic Acid, Glycolic Acid &
+                                                    Multivitamins for Clear & Hydrated Skin - 100ml
+                                                </h5>
+                                                <p class="description mb-0">
+                                                    ₹ 499.00
+                                                </p>
+                                                <div class="sc-ckVGcZ gTzsvG">
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="star"
+                                                                d="M8.147,11.135l3.8,2.232L10.937,9.161l3.356-2.83-4.42-.365L8.147,2,6.42,5.966,2,6.331l3.356,2.83L4.348,13.367Z"
+                                                                transform="translate(-2 -2)" fill="#ffc300"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-jKJlTe lfmUyh">4.9</div>
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="verified_" data-name="verified "
+                                                                d="M15.865,8.534,14.216,6.665l.23-2.472-2.439-.549L10.73,1.5l-2.3.978L6.135,1.5,4.858,3.637,2.419,4.18l.23,2.479L1,8.534,2.649,10.4l-.23,2.479,2.439.549,1.277,2.137,2.3-.985,2.3.978,1.277-2.137,2.439-.549-.23-2.472ZM7.142,11.7,4.574,9.144l1-.991L7.142,9.713l3.953-3.932,1,.991Z"
+                                                                transform="translate(-1 -1.5)" fill="#0082ff">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-dxgOiQ FNQpo">321 Ratings</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <p class="description co_black mb-2">
+                                            Benefits
+                                        </p>
+                                        <p style="font-size: 14px;color: rgb(29, 29, 29);">
+                                            Your solution for reducing excess oil and gently exfoliates
+                                        </p>
+                                        <p class="description co_black mb-2">
+                                            Active Ingredients
+                                        </p>
+                                        <div class="d-flex justify-content-start align-item-center gap-3 flex-wrap">
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product">
+                                    <div class="pro_selected">
+                                        <label class="check_box_pro"> SELECT
+                                            <input type="checkbox" class="input_check">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="p-2 bg_white">
+                                        <div class="d-flex justify-content-between gap-2">
+                                            <div class="col-5">
+                                                <img src="./accests/images/kojic_acid.jpg" alt="Bets product"
+                                                    height="130" class="rounded-3">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="sc-gipzik cmUmuY">
+                                                    <div class="sc-bRBYWo cHYsIe">
+                                                        <img src="./accests/images/icons/day.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj">Day</div>
+                                                        <div class="sc-kkGfuU eCPBTH"></div>
+                                                        <img src="./accests/images/icons/nicht.svg" alt=""
+                                                            style="width: 25px;height: 25px;">
+                                                        <div class="sc-iAyFgw bCRcOj" style="margin-left: -3px;">
+                                                            Night
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <h5 class="heading_simple my-3 ">
+                                                    Oil-Free Daily Face Wash With Hyaluronic Acid, Glycolic Acid &
+                                                    Multivitamins for Clear & Hydrated Skin - 100ml
+                                                </h5>
+                                                <p class="description mb-0">
+                                                    ₹ 499.00
+                                                </p>
+                                                <div class="sc-ckVGcZ gTzsvG">
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="star"
+                                                                d="M8.147,11.135l3.8,2.232L10.937,9.161l3.356-2.83-4.42-.365L8.147,2,6.42,5.966,2,6.331l3.356,2.83L4.348,13.367Z"
+                                                                transform="translate(-2 -2)" fill="#ffc300"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-jKJlTe lfmUyh">4.9</div>
+                                                    <div style="margin-top: -3px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            viewBox="0 0 16 16">
+                                                            <path id="verified_" data-name="verified "
+                                                                d="M15.865,8.534,14.216,6.665l.23-2.472-2.439-.549L10.73,1.5l-2.3.978L6.135,1.5,4.858,3.637,2.419,4.18l.23,2.479L1,8.534,2.649,10.4l-.23,2.479,2.439.549,1.277,2.137,2.3-.985,2.3.978,1.277-2.137,2.439-.549-.23-2.472ZM7.142,11.7,4.574,9.144l1-.991L7.142,9.713l3.953-3.932,1,.991Z"
+                                                                transform="translate(-1 -1.5)" fill="#0082ff">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="sc-dxgOiQ FNQpo">321 Ratings</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <p class="description co_black mb-2">
+                                            Benefits
+                                        </p>
+                                        <p style="font-size: 14px;color: rgb(29, 29, 29);">
+                                            Your solution for reducing excess oil and gently exfoliates
+                                        </p>
+                                        <p class="description co_black mb-2">
+                                            Active Ingredients
+                                        </p>
+                                        <div class="d-flex justify-content-start align-item-center gap-3 flex-wrap">
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <img src="./accests/images/Kojic Acid.png" alt="" height="40" width="40"
+                                                    style="border-radius: 50%; margin-bottom: 5px;width: 40px;">
+                                                <div style="font-size: 12px; margin-bottom: 5px;">Hyaluronic Acid
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="satisfiedCustomers py-4">
+            <div class="container">
+                <h1 class="heading_1 co_black text-center mb-3">3 Lakh+ satisfied customers</h1>
+                <div class="customers_slider">
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="singler_slide">
+                            <img src="https://images.thedermaco.com/promotional/Sapna-Kumari.jpg" height="200px"
+                                width="100%">
+                            <div class="px-3 py-2">
+                                <p class="slide_head m-0 mb-2 p-0 ">Sapna Kumari</p>
+                                <div class="sc-hmzhuo iMcOQG">Personalized Regimen = Healthy Skin</div>
+                                <div class="d-flex justify-content-evenly align-self-center">
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            style="width: 30px;" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://images.thedermaco.com/openPoresPink.png" height="30px"
+                                            width="30px" class="cXRrCT">
+                                        <div class="sc-cJSrbW jirRJo">
+                                            <div style="font-size: 10px; color: rgb(114, 114, 114);">Concern</div>
+                                            <div style="font-size: 10px; font-weight: bold; color: rgb(76, 151, 137);">
+                                                Open
+                                                pores</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-kgAjT gzdykC">After suffering from dullness and rough skin, I took this
+                                    free
+                                    skin test. I got a customized regimen for my concern and it truly worked after 3
+                                    weeks
+                                    of usage.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FAQs pb-5 my-4">
+            <div class="container-fluid">
+                <h4 class="text-center">FAQs</h4>
+                <div class="faq-list">
+                    <button class="accordion">Is The Skin Assessment Test Chargeable?
+                        <svg width="17.006" height="9.618" viewBox="0 0 17.006 9.618">
+                            <path
+                                d="M16.348 1.455a.517.517 0 00-.718-.744l-7.1 7.1-7.1-7.1a.513.513 0 10-.718.718l7.46 7.485a.513.513 0 00.718 0z"
+                                fill="#279989" stroke="#279989"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            No. The Skin Assessment Test by The Derma Co. is absolutely free!
+                        </p>
+                    </div>
+                    <button class="accordion">Is The Skin Assessment Test Chargeable?
+                        <svg width="17.006" height="9.618" viewBox="0 0 17.006 9.618">
+                            <path
+                                d="M16.348 1.455a.517.517 0 00-.718-.744l-7.1 7.1-7.1-7.1a.513.513 0 10-.718.718l7.46 7.485a.513.513 0 00.718 0z"
+                                fill="#279989" stroke="#279989"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            No. The Skin Assessment Test by The Derma Co. is absolutely free!
+                        </p>
+                    </div>
+                    <button class="accordion">Is The Skin Assessment Test Chargeable?
+                        <svg width="17.006" height="9.618" viewBox="0 0 17.006 9.618">
+                            <path
+                                d="M16.348 1.455a.517.517 0 00-.718-.744l-7.1 7.1-7.1-7.1a.513.513 0 10-.718.718l7.46 7.485a.513.513 0 00.718 0z"
+                                fill="#279989" stroke="#279989"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            No. The Skin Assessment Test by The Derma Co. is absolutely free!
+                        </p>
+                    </div>
+                    <button class="accordion">Is The Skin Assessment Test Chargeable?
+                        <svg width="17.006" height="9.618" viewBox="0 0 17.006 9.618">
+                            <path
+                                d="M16.348 1.455a.517.517 0 00-.718-.744l-7.1 7.1-7.1-7.1a.513.513 0 10-.718.718l7.46 7.485a.513.513 0 00.718 0z"
+                                fill="#279989" stroke="#279989"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            No. The Skin Assessment Test by The Derma Co. is absolutely free!
+                        </p>
+                    </div>
+                    <button class="accordion">Is The Skin Assessment Test Chargeable?
+                        <svg width="17.006" height="9.618" viewBox="0 0 17.006 9.618">
+                            <path
+                                d="M16.348 1.455a.517.517 0 00-.718-.744l-7.1 7.1-7.1-7.1a.513.513 0 10-.718.718l7.46 7.485a.513.513 0 00.718 0z"
+                                fill="#279989" stroke="#279989"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            No. The Skin Assessment Test by The Derma Co. is absolutely free!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="https://images.thedermaco.com/promotional/Returns and Refunds_Desktop.jpg">
+        </div>
+
+        <div class="sc-kTUwUJ ddkrCl">
+            <div class="sc-elJkPf gPqAsd">
+                <div class="sc-ktHwxA cbINDa">Get 20% OFF On this Order</div>
+                <div class="sc-jtRfpW kdItzi">Get a special 20% discount on your regimen</div>
+            </div>
+            <div class="py-2 bg_white">
+                <button class="btn_1 btn_active px-2" id="sgt-product-addtocart" style="width: auto;">BUY COMPLETE
+                    REGIMEN (1
+                    ITEMS)</button>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="retake-btn btn_styleless d-flex justify-content-center">
+        <img src="<?= plugin_dir_url( __FILE__ ) ?>../accests/images/icons/retake.svg" alt="Retake">
+        Retake
+    </button>
+    
+
+
+    <script src="./accests/js/jquery.js"></script>
+    <script src="./accests/js/jquery-steps.js"></script>
+    <script src="./accests/js/bootstrap.bundle.min.js"></script>
+    <script src="./accests/js/slick.min.js"></script>
+    <script src="./accests/js/main.js"></script>
+    <script>
+        const proSkin = document.getElementById('proSkin');
+        const checkboxes = proSkin.querySelectorAll('input[type="checkbox"]');
+        const addButton = document.getElementById('sgt-product-addtocart');
+
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', () => {
+                toggleActiveProClass();
+                toggleBuyButtonDisabled();
+            });
+        });
+
+        function toggleActiveProClass() {
+            checkboxes.forEach((checkbox) => {
+                const proSelectedDiv = checkbox.closest('.pro_selected');
+                if (checkbox.checked) {
+                    proSelectedDiv.classList.add('active_pro');
+                } else {
+                    proSelectedDiv.classList.remove('active_pro');
+                }
+            });
+        }
+
+        function toggleBuyButtonDisabled() {
+            const isAnyChecked = Array.from(checkboxes).some((checkbox) => checkbox.checked);
+
+            if (isAnyChecked) {
+                addButton.removeAttribute('disabled');
+                addButton.classList.add('btn_active');
+            } else {
+                addButton.setAttribute('disabled', 'true');
+                addButton.classList.remove('btn_active');
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

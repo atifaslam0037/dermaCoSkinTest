@@ -1,0 +1,15 @@
+<svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                            viewBox="0 0 30 30">
+                                                            <g id="moon" transform="translate(-6937 -14246)">
+                                                                <rect id="Rectangle_4051" data-name="Rectangle 4051"
+                                                                    width="30" height="30"
+                                                                    transform="translate(6937 14246)" fill="none">
+                                                                </rect>
+                                                                <path id="moon_1_" data-name="moon (1)"
+                                                                    d="M6.8,13.552a6.6,6.6,0,0,0,6.054-3.819,5.174,5.174,0,0,1-2.182.43A5.33,5.33,0,0,1,5.347,4.84,5.518,5.518,0,0,1,8.218.08,10.118,10.118,0,0,0,6.8,0a6.776,6.776,0,0,0,0,13.552Zm0,0"
+                                                                    transform="translate(6945.562 14254.251)"
+                                                                    fill="none" stroke="#279989" stroke-width="1">
+                                                                </path>
+                                                            </g>
+                                                        </svg>

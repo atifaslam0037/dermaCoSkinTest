@@ -1,0 +1,50 @@
+<svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                            viewBox="0 0 30 30">
+                                                            <g id="sun" transform="translate(-6891 -14246)">
+                                                                <rect id="Rectangle_4050" data-name="Rectangle 4050"
+                                                                    width="30" height="30"
+                                                                    transform="translate(6891 14246)" fill="none">
+                                                                </rect>
+                                                                <g id="Group_11659" data-name="Group 11659"
+                                                                    transform="translate(6604.5 13437.75)">
+                                                                    <g id="Subtraction_1" data-name="Subtraction 1"
+                                                                        transform="translate(6455 13788)" fill="none">
+                                                                        <path
+                                                                            d="M-6145.015-12958h-16.971c-.01-.17-.015-.339-.015-.5a8.51,8.51,0,0,1,8.5-8.5,8.51,8.51,0,0,1,8.5,8.5c0,.16,0,.323-.015.5Z"
+                                                                            stroke="none"></path>
+                                                                        <path
+                                                                            d="M -6146.0166015625 -12958.9990234375 C -6146.27392578125 -12962.9033203125 -6149.53271484375 -12966.0009765625 -6153.5009765625 -12966.0009765625 C -6157.46923828125 -12966.0009765625 -6160.7275390625 -12962.9033203125 -6160.98486328125 -12958.9990234375 L -6146.0166015625 -12958.9990234375 M -6145.01513671875 -12957.9990234375 L -6161.986328125 -12957.9990234375 C -6161.99658203125 -12958.1689453125 -6162.0009765625 -12958.337890625 -6162.0009765625 -12958.5009765625 C -6162.0009765625 -12963.1875 -6158.18798828125 -12967.0009765625 -6153.5009765625 -12967.0009765625 C -6148.81396484375 -12967.0009765625 -6145.00048828125 -12963.1875 -6145.00048828125 -12958.5009765625 C -6145.00048828125 -12958.3408203125 -6145.00537109375 -12958.177734375 -6145.01513671875 -12958 L -6145.01513671875 -12957.9990234375 Z"
+                                                                            stroke="none" fill="#279989"></path>
+                                                                    </g>
+                                                                    <line id="Line_447" data-name="Line 447" y2="3"
+                                                                        transform="translate(301.5 816.5)" fill="none"
+                                                                        stroke="#279989" stroke-linecap="round"
+                                                                        stroke-width="1"></line>
+                                                                    <line id="Line_448" data-name="Line 448" y2="3"
+                                                                        transform="matrix(0.809, -0.588, 0.588, 0.809, 295.662, 817.758)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                    <line id="Line_449" data-name="Line 449" y2="3"
+                                                                        transform="translate(307.25 817.701) rotate(30)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                    <line id="Line_450" data-name="Line 450" y2="3"
+                                                                        transform="translate(311.649 821.036) rotate(50)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                    <line id="Line_451" data-name="Line 451" y1="3"
+                                                                        transform="translate(293.649 822.965) rotate(130)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                    <line id="Line_452" data-name="Line 452" y2="3"
+                                                                        transform="translate(313.91 825.487) rotate(70)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                    <line id="Line_453" data-name="Line 453" y1="3"
+                                                                        transform="translate(291.91 826.514) rotate(110)"
+                                                                        fill="none" stroke="#279989"
+                                                                        stroke-linecap="round" stroke-width="1"></line>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
